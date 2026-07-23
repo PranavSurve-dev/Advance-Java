@@ -6,6 +6,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Advance-Java\01-JDBC-CRUD"/>
 			<item value="D:\Advance-Java\01-JDBC-CRUD\src\main\java\com\ty\crud\Fetch.java"/>
 		</list>
 		<list key="projectNameTemplate">

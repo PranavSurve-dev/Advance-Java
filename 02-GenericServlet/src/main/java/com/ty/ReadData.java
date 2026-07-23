@@ -19,8 +19,9 @@ public class ReadData extends GenericServlet {
 		String name = req.getParameter("username");
 		String email = req.getParameter("email");
 		String phone = req.getParameter("phno");
-		String pwd = req.getParameter("pwd");
-
+//		String pwd = req.getParameter("pwd");
+         String pwd = req.getParameter("pwd");
+		
 		System.out.println(name);
 		System.out.println(email);
 		System.out.println(phone);

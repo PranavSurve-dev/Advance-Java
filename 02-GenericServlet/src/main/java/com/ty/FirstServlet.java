@@ -18,7 +18,7 @@ public class FirstServlet extends GenericServlet  {
 		PrintWriter pw = res.getWriter();
 		pw.print("<html>"
 		+ "<body>"
-	    + "<h1>Welcome to GenericServlet</h1>"
+	    + "<h1>Welcome to GenericServlet 1st one</h1>"
 		+ "</body>"
 	    + "</html>");
 	}
