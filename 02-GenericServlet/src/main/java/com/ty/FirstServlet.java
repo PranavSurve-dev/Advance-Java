@@ -13,7 +13,7 @@ public class FirstServlet extends GenericServlet  {
 	@Override
 	public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
 
-		System.out.println("GenericServlet is Triggered");		
+		System.out.println("GenericServlet is Triggeredd");		
 		
 		PrintWriter pw = res.getWriter();
 		pw.print("<html>"
