@@ -9,12 +9,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/om")
+@WebServlet("/pranav")
 public class ReadHttpData extends HttpServlet{
 
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-		System.out.println("Http run on console");
+		System.out.println("Http run on console successfully");
 		
 		String name = req.getParameter("username");
 		String email = req.getParameter("useremail");
