@@ -18,6 +18,21 @@ public class PageB extends HttpServlet{
 		
 		System.out.println("Data set to the Request");
 	
-		
+		String name = (String) req.getAttribute("pname");
+		int age = (int) req.getAttribute("page");
+		Student s = (Student) req.getAttribute("stud");
+
+		System.out.println(name);
+		System.out.println(age);
+		System.out.println(s);
+
+		resp.getWriter().print(
+				"<html>"
+				+ "<body>"
+				+ "<h1>Welcome," + name + " to Servlet Page-B</h1>"
+				+ "<h2>Student Details</h2>"
+				+  s
+				+ "</body>"
+				+ "</html>");	
 	}
 }

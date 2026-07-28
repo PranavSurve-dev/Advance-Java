@@ -21,14 +21,17 @@ public class PageA extends HttpServlet{
 		String personName = "penga";
 		int personAge = 22;
 		
+		Student student = new Student("Mangi", "mangi@gmail.com", 456789);
+		
 		req.setAttribute("pname", personName);
 		req.setAttribute("page", personAge);
+		req.setAttribute("stud", student);
 		
 		System.out.println("Data set to the Request");
 		
-		RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
+		RequestDispatcher rd = req.getRequestDispatcher("demo.jsp");
 		rd.forward(req,resp);
-		rd.include(req,resp);
+//		rd.include(req,resp);
 		
 	}
 }
