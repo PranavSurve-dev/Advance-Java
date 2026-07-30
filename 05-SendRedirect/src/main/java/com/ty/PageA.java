@@ -15,6 +15,6 @@ public class PageA extends HttpServlet {
 	
 		resp.getWriter().print("<h1>welcome to servlet page-A</h1>");
 		
-		resp.sendRedirect("demo.jsp");
+		resp.sendRedirect("https://www.flipkart.com/");
 	}
 }

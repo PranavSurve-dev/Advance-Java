@@ -9,5 +9,25 @@
 <body>
 
 <h1>Demo JSP Page</h1>
+
+<!-- Declaration Tag -->
+	<%!
+		int a = 10 ;
+		public void greet()
+		{
+			return ;
+		}
+	%>
+	<!-- Script-let Tag -->
+	<%
+		//String p = request.getParameter("fdajsk");
+		int b = 20 ;//local variable
+		int c = 30;
+	%>
+	<!-- Expression Tag -->
+	<h2>a : <%=a %></h2>
+	<h2>b : <%=b %></h2>
+	<h2>c : <%=c %></h2>
+	<h2>Greetings : <%=greet()%></h2>
 </body>
 </html>

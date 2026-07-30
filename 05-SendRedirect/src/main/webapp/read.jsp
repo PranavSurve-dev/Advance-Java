@@ -8,5 +8,31 @@
 </head>
 <body>
 
+<h1>Welcome to Read.jsp Page</h1>
+<hr>
+
+<%
+String name = request.getParameter("un");
+String email = request.getParameter("ue");
+String phone = request.getParameter("up");
+String pwd = request.getParameter("upwd");
+%>
+
+<h2>
+User Deatils
+
+<h2>Name : <%=name %></h2>
+		<h2>Email : <%=email %></h2>
+		<h2>Phone : <%=phone %></h2>
+		
+		<hr>
+		
+				<h2>Reading data using expression tag</h2>
+		
+		<h2>Name : <%=request.getParameter("un") %></h2>
+		<h2>Email : <%=request.getParameter("ue") %></h2>
+		<h2>Phone : <%=request.getParameter("up") %></h2>
+
+</h2>
 </body>
 </html>
