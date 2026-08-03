@@ -29,11 +29,13 @@
 
 	<myTag:remove var="a" />
 	
-	<p>a scope is removed</p>
+	<p>a scope is remove</p>
 	<h2>
 		a :
 		<myTag:out value="${a}"></myTag:out>
 	</h2>
+	
+	
 	
 	<%-- <myTag:redirect url="https://www.wikipedia.org/"></myTag:redirect> --%>
 	
