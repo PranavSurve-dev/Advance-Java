@@ -31,7 +31,6 @@ public class PageB extends HttpServlet{
 				+ "<body>"
 				+ "<h1>Welcome," + name + " to Servlet Page-B</h1>"
 				+ "<h2>Student Details</h2>"
-				+  s
 				+ "</body>"
 				+ "</html>");	
 	}
