@@ -39,7 +39,7 @@
 	
 	<%-- <myTag:redirect url="https://www.wikipedia.org/"></myTag:redirect> --%>
 	
-	<myTag:import url="https://www.facebook.com/"></myTag:import>
+	<myTag:import url="test.html"></myTag:import>
 	
 </body>
 </html>

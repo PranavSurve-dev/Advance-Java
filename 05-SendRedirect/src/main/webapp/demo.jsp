@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,15 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h1>Demo JSP page</h1>
 
-<h1>Demo JSP Page</h1>
-
-<!-- Declaration Tag -->
+	<!-- Declaration Tag -->
 	<%!
 		int a = 10 ;
-		public void greet()
+		public String greet()
 		{
-			return ;
+			return "Hello" ;
 		}
 	%>
 	<!-- Script-let Tag -->
@@ -26,8 +25,26 @@
 	%>
 	<!-- Expression Tag -->
 	<h2>a : <%=a %></h2>
-	<h2>b : <%=b %></h2>
+	<h2>b : <%=b %></h2> 	
 	<h2>c : <%=c %></h2>
 	<h2>Greetings : <%=greet()%></h2>
+	
+	<%
+	String name = "Pranav Surve";
+	//out.println(name);
+	%>
+	
+	<% 
+	//session.setAttribute("uname", "Pranav Surve");
+	%>
+	
+	<% String a = " Jspider"; 
+    //out.println(a);
+	
+	%>
+	
+	<h2>Hello :<%=a%></h2>
+	
+	
 </body>
 </html>

@@ -3,6 +3,16 @@
 
 <div class = "container">
 
+
+<%
+	String name = "Pranav Surve";
+	out.println(name);
+	%>
+	
+	<% 
+	session.setAttribute("uname", "Pranav Surve");
+	%>
+
 <h2>Enter Data</h2>
 
 
