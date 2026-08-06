@@ -15,6 +15,6 @@
 <h2>KingFisher</h2>
 <h2>Crow</h2>
 
-<%@include file="animals.jsp"%>
+<%@include file="animals.jsp"%>   
 </body>
 </html>

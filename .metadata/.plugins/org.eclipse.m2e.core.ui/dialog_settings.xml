@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Advance-Java\02-GenericServlet"/>
 			<item value="D:\Advance-Java\01-JDBC-CRUD"/>
 			<item value="D:\Advance-Java\01-JDBC-CRUD\src\main\java\com\ty\crud\Fetch.java"/>
 		</list>
@@ -31,13 +40,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.ty._GenericServlet"/>
+			<item value="com.ty.senddirect"/>
+			<item value="com.ty._SendRedirect"/>
+			<item value="com.ty._RequestDispatcher"/>
+			<item value="com.ty._HttpServlet"/>
 		</list>
 		<list key="groupId">
 			<item value="com.ty"/>
 		</list>
 		<list key="artifactId">
-			<item value="02-GenericServlet"/>
+			<item value="05senddirect"/>
+			<item value="05-SendRedirect"/>
+			<item value="04-RequestDispatcher"/>
+			<item value="03-HttpServlet"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
